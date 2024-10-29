@@ -1,0 +1,50 @@
+{"cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/dialogue/dialogue",
+    "pages/center/center",
+    "pages/poetpage/poetpage",
+    "pages/notice/notice",
+    "pages/interestingthing/interestingthing",
+    "pages/timetravel/timetravel",
+    "pages/lifetravel/lifetravel",
+    "pages/aboutus/aboutus",
+    "pages/record/record",
+    "pages/question/question"
+  ],
+  "tabBar": {
+    "color": "#E2CFB5",
+    "selectedColor": "#CBB697",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/tabbar/selectfill.png",
+        "iconPath": "image/tabbar/select.png",
+        "pagePath": "pages/index/index",
+        "text": "推荐"
+      },
+      {
+        "selectedIconPath": "image/tabbar/interactivefill.png",
+        "iconPath": "image/tabbar/interactive.png",
+        "pagePath": "pages/dialogue/dialogue",
+        "text": "对话"
+      },
+      {
+        "selectedIconPath": "image/tabbar/minepicfill.png",
+        "iconPath": "image/tabbar/minepic.png",
+        "pagePath": "pages/center/center",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "component": true,
+    "navigationBarBackgroundColor": "#000000",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "1111",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

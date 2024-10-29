@@ -1,0 +1,27 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+@import "colorui/animation.wxss";
+page {
+ background-image: url(https://wubh-one-bucket.oss-cn-beijing.aliyuncs.com/images/back.png?versionId=CAEQBhiBgMCr79zGzhciIDBjNmNjMzNiYWI0ODRkN2VhZTE5YjFmZDJhYmVlNDUw);
+background-size: 100%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+@font-face {
+  font-family:'stylefont';
+  src:url('https://7775-wubh576-1gmqw25u1d0f40a5-1305563425.tcb.qcloud.la/fontindex.ttf?sign=c33e6a77e6172784cd8d23976b67795c&t=1622818930');
+}
+@font-face {
+  font-family:'kaiti';
+  src:url('https://7775-wubh576-1gmqw25u1d0f40a5-1305563425.tcb.qcloud.la/kaiti.TTF?sign=0e865f562168729e884fbb713532923c&t=1622818967');
+}
+@font-face{
+  font-family: "poem";
+  src: url("https://7775-wubh576-1gmqw25u1d0f40a5-1305563425.tcb.qcloud.la/timetravel%20(1).ttf?sign=612b1d917ac2c689f10c56d1d08fcb8d&t=1622818985");
+}

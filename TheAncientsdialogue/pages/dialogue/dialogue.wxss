@@ -1,0 +1,53 @@
+/* pages/dialogue/dialogue.wxss */
+.searchexample {
+  background-image: url(https://wubh-one-bucket.oss-cn-beijing.aliyuncs.com/images/poembg.png?versionId=CAEQBhiBgMDsutnGzhciIGU4NzA5OGQ5MTRiNDRjN2U4YmJlZGEzZWIyMTkwYWEx);
+  background-size: 100%;
+  font-size: 52rpx;
+  font-family: stylefont;
+  font-weight: 700;
+  width: 649rpx;
+  height: 216rpx;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+
+.container {
+  padding-bottom: 20rpx;
+  padding-top: 200rpx;
+}
+
+.searcharea {
+  border-radius: 41rpx;
+}
+
+.nameplace {
+  line-height: 56rpx;
+  position: absolute;
+  text-align: center;
+  width: 649rpx;
+  top: 90rpx;
+}
+.cover{
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.inimg{
+  width: 400rpx;
+  height: 300rpx;
+  position: absolute;
+  left: 300rpx;
+  top: 300rpx;
+}
+.iniknow{
+  font-size: 56rpx;
+  color: aliceblue;
+  position: absolute;
+  right: 20rpx;
+  font-family:stylefont;
+  bottom: 160rpx;
+}
